@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MalavStore", "MalavStore\Ma
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MalavStoreDB", "MalavStoreDB\MalavStoreDB.sqlproj", "{28597FD7-078C-4CE3-BB07-6EB5D9FC9632}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieRental1", "MovieRental\MovieRental1.csproj", "{811AB49A-310E-4951-8856-2C353987EDCE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{28597FD7-078C-4CE3-BB07-6EB5D9FC9632}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28597FD7-078C-4CE3-BB07-6EB5D9FC9632}.Release|Any CPU.Build.0 = Release|Any CPU
 		{28597FD7-078C-4CE3-BB07-6EB5D9FC9632}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{811AB49A-310E-4951-8856-2C353987EDCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{811AB49A-310E-4951-8856-2C353987EDCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{811AB49A-310E-4951-8856-2C353987EDCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{811AB49A-310E-4951-8856-2C353987EDCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

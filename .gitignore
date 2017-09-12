@@ -12,3 +12,9 @@
 /packages
 /MalavStoreDB/MalavStoreDB.sqlproj.user
 /MalavStore/MalavStore.csproj.user
+/MalavStore/.vs
+/MalavStoreDB/.vs
+/MalavStoreDB/MalavStoreDB.jfm
+/MalavStoreDB/MalavStoreDB.dbmdl
+/MovieRental/bin
+/MovieRental/obj
