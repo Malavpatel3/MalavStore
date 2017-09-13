@@ -1,9 +1,43 @@
-﻿<!DOCTYPE html>
+﻿
+
+
+<!DOCTYPE html>
+
 <html>
+
 <head>
-    <title>@ViewBag.Title</title>
+
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/Content/BootStrap-Lumen.css" rel="stylesheet" />
+    <title>@ViewBag.Title - My ASP.NET Application</title>
 </head>
+
 <body>
-	@RenderBody()
+
+    @Html.Partial("_NavBar")
+
+    <div class="container body-content">
+
+        @RenderBody()
+
+        <hr />
+
+        <footer>
+
+            <p>&copy; @DateTime.Now.Year - MovieRental1</p>
+
+        </footer>
+
+    </div>
+
+    <script src="/Scripts/jquery-3.1.1.js"></script>
+    <script src="/Scripts/bootstrap.js"></script>
+
+
+    @RenderSection("scripts", required: false)
+
 </body>
-</html>
+
+</html> 

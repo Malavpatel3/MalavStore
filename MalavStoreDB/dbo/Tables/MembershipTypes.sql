@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[MembershipTypes]
+(
+	[Id] INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+	[Type] NVARCHAR(1000) NOT NULL
+)

@@ -2,7 +2,7 @@
 using System.Web.Mvc;
 using System.Web.Routing;
 using System.Web.Http;
-using System.Web.Mvc;
+
 namespace MovieRental1
 {
     public class Global : HttpApplication
